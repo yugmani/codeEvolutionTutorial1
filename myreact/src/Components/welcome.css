@@ -1,0 +1,21 @@
+.welcome {
+  margin: 0 auto;
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.count-counter {
+  font-size: 25px;
+  color: green;
+  background-color: lightgray;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
