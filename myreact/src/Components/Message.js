@@ -14,10 +14,11 @@ class Message extends Component {
     });
   }
   render() {
+    const { name, city } = this.props;
     return (
       <div>
         <h5>
-          I am {this.props.name} from {this.props.city}
+          I am {name} from {city}
         </h5>
         <h2>{this.state.message}</h2>
         <button onClick={() => this.changeMessage()}>Subscribe</button>

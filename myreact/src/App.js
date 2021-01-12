@@ -3,6 +3,8 @@ import Welcome from "./Components/Welcome";
 import Greet from "./Components/Greet";
 import User from "./Components/User";
 import Food from "./Components/Food";
+import FunctionClick from "./Components/FunctionClick";
+import ClassClick from "./Components/ClassClick";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Food food="Pizza" />
       <Food food="Doritos" />
       <Food food="Green Salad" />
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
