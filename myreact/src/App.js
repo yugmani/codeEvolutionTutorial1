@@ -5,6 +5,7 @@ import User from "./Components/User";
 import Food from "./Components/Food";
 import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
+import EventBinding from "./Components/EventBinding";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Food food="Pizza" />
       <Food food="Doritos" />
       <Food food="Green Salad" />
+      <EventBinding />
       <FunctionClick />
       <ClassClick />
     </div>
