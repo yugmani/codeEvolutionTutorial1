@@ -6,6 +6,7 @@ import Food from "./Components/Food";
 import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
 import EventBinding from "./Components/EventBinding";
+import ParentComponent from "./Components/ParentComponent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Welcome compo="Functional">
         <p>This is children prop.</p>
       </Welcome>
+      <ParentComponent />
       <Greet compo="Class" />
       <h2>Users list</h2>
       <User name="Doris" />
